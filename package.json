@@ -1,0 +1,31 @@
+{
+  "name": "page-reload",
+  "version": "1.0.0",
+  "description": " web develop auto reload",
+  "main": "app.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cainmaila/page-reload.git"
+  },
+  "keywords": [
+    "livereload"
+  ],
+  "author": "cainmaila@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cainmaila/page-reload/issues"
+  },
+  "homepage": "https://github.com/cainmaila/page-reload#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.1.0"
+  }
+}
